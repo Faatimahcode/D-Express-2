@@ -199,6 +199,7 @@ nav li {
   width: 40%;
   margin: auto;
 }
+
 .medicine {
   display: flex;
   justify-content: space-between;
@@ -242,6 +243,10 @@ nav li {
   cursor: pointer;
 }
 
+.medicineimage img {
+  width: 100%;
+}
+
 .doorstep {
   display: flex;
   justify-content: space-between;
@@ -283,6 +288,14 @@ nav li {
   padding: 0.5rem 1rem;
   border-radius: 50px;
   cursor: pointer;
+}
+
+.doorstepimg img{
+  width: 80%;
+}
+
+.doorstepimg {
+  width: 100%;
 }
 
 .profile {
@@ -330,6 +343,10 @@ nav li {
   cursor: pointer;
 }
 
+.profileimg img {
+  width: 100%;
+}
+
 .client {
   display: flex;
   align-items: center;
@@ -342,15 +359,6 @@ nav li {
 }
 
 .clientImage img {
-  width: 100%;
-}
-.medicineimage img {
-  width: 100%;
-}
-.doorstepimg img {
-  width: 100%;
-}
-.profileimg img {
   width: 100%;
 }
 
@@ -498,181 +506,359 @@ footer {
   padding-top: 4rem;
 }
 
-.doorstepimg img{
-  width: 80%;
-}
-
 
 @media (max-width: 1024px){
-  .textside {
-    width: 55%;
-  }
+.textside {
+  width: 55%;
+}
 
-  .textside p {
-    width: 95%;
-  }
+.textside p {
+  width: 95%;
+}
 
-  .heroinput input {
-    width: 70%;
-  }
+.heroinput input {
+  width: 70%;
+}
   
-  .clientImage {
-    width: 50%;
-  }
+.clientImage {
+  width: 50%;
+}
   
-  .clientText {
-    width: 40%;
-  }
+.clientText {
+  width: 40%;
+}
 
-  .clientText h2 {
-    font-size: 33px;
-  }
+.clientText h2 {
+  font-size: 33px;
+}
 
-  .signUp{
-    width: 53%;
-  }
+.signUp{
+  width: 53%;
+}
   
-  .email{
-    width: 40%;
-  }
+.email{
+  width: 40%;
+}
   
-  .newsletter {
-    gap: 10rem;
-  }
+.newsletter {
+  gap: 10rem;
+}
 
-  .footLinks {
-    gap: 8rem;
-  }
+.footLinks {
+  gap: 8rem;
+}
 
-  .footRight {
-    width: 70%;
-    gap: 4rem;
-  }
+.footRight {
+  width: 70%;
+  gap: 4rem;
+}
 
-  .footLeft{
-    width: 30%;
-  }
-
+.footLeft{
+  width: 30%;
+}
 }
 
 @media (max-width: 768px){
-  .textside h2 {
-    font-size: 38px;
-    line-height: 45.57px;
-  }
+.textside h2 {
+  font-size: 38px;
+  line-height: 45.57px;
+}
   
-  .textside p {
-    font-size: 16px;
-    width: 95%;
-  }
+.textside p {
+  font-size: 16px;
+  width: 95%;
+}
   
-  .heroinput input {
-    width: 60%;
-  }
+.heroinput input {
+  width: 60%;
+}
 
-  .heroinput button {
-    width: 25%;
-  }
+.heroinput button {
+  width: 25%;
+}
 
-  .textside{
-    width: 65%;
-  }
-  .imageside{
-    width: 40%;
-  }
+.textside{
+  width: 65%;
+}
 
-  .herobtn button {
-    font-size: 16px;
-    padding: 0.5rem 1.5rem;
-    margin-right: 0.5rem;
-  }
+.imageside{
+  width: 40%;
+}
 
-  .medicinetext h4 {
-    width: 80%;
-  }
-  
-  .medicinetext li {
-    font-size: 13px;
-  }
+.herobtn button {
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+  margin-right: 0.5rem;
+}
 
-  .doorsteptext h4 {
-    width: 80%;
-  }
+.medicinetext h4 {
+  width: 80%;
+}
   
-  .doorsteptext li {
-    font-size: 13px;
-  }
+.medicinetext li {
+  font-size: 13px;
+}
 
-  .profiletext h4 {
-    width: 80%;
-  }
+.doorsteptext h4 {
+  width: 80%;
+}
   
-  .profiletext li {
-    font-size: 13px;
-  }
+.doorsteptext li {
+  font-size: 13px;
+}
 
-  .clientText h2 {
-    font-size: 25px;
-  }
+.profiletext h4 {
+  width: 80%;
+}
   
-  .clientText p {
-    font-size: 13px;
-  }
+.profiletext li {
+  font-size: 13px;
+}
 
-  .clientText h5 {
-    font-size: 13px;
-  }
+.clientText h2 {
+  font-size: 25px;
+}
+  
+.clientText p {
+  font-size: 13px;
+}
 
-  .signUp{
-    width: 65%;
-  }
+.clientText h5 {
+  font-size: 13px;
+}
+
+.signUp{
+  width: 65%;
+}
   
-  .email{
-    width: 60%;
-  }
+.email{
+  width: 60%;
+}
   
-  .signUp h3 {
-    font-size: 18px;
-  }
+.signUp h3 {
+  font-size: 18px;
+}
   
-  .signUp p {
-    font-size: 14px;
-  }
+.signUp p {
+  font-size: 14px;
+}
   
-  .email label {
-    font-size: 14px;
-  }
+.email label {
+  font-size: 14px;
+}
   
-  .footLinks {
-    gap: 5rem;
-  }
+.footLinks {
+  gap: 5rem;
+}
   
-  .footRight {
-    width: 70%;
-    gap: 2rem;
-  }
+.footRight {
+  width: 70%;
+  gap: 2rem;
+}
   
-  .footLeft p {
-    font-size: 14px;
-  }
+.footLeft p {
+  font-size: 14px;
+}
   
-  .quickLinks h5 {
-    font-size: 14px;
-  }
+.quickLinks h5 {
+  font-size: 14px;
+}
   
-  .quickLinks p {
-    font-size: 14px;
-  }
+.quickLinks p {
+  font-size: 14px;
+}
   
-  .footLeft{
-    width: 30%;
-  }
+.footLeft{
+  width: 30%;
+}
   
-  .newsletter {
-    gap: 4rem;
-  }
+.newsletter {
+  gap: 4rem;
+}
   
-  .copyright{
-    font-size: 14px;
-  }
+.copyright{
+  font-size: 14px;
+}
+}
+
+@media (max-width: 425px){
+nav{
+  display: none;
+}
+
+.btn{
+  display: none;
+}
+
+.hero{
+  flex-direction: column-reverse;
+}
+
+.textside{
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.imageside{
+  width: 100%;
+}
+
+.heroinput input {
+  width: 70%;
+}
+
+.headerhero{
+  padding-bottom: 3rem;
+}
+
+.affiliate{
+  width: 50%;
+  margin: auto;
+}
+
+.affiliate img{
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 2rem;
+}
+
+.medicine{
+  flex-direction: column;
+}
+
+.medicinetext{
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.medicinetext h4{
+  width: 60%;
+}
+
+.medicineimage{
+  width: 100%;
+}
+
+.medicinetext li {
+  font-size: 17px;
+}
+
+.doorstep{
+  flex-direction: column-reverse;
+}
+
+.doorsteptext{
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.doorsteptext h4{
+  width: 60%;
+}
+
+.doorstepimg{
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.doorsteptext li {
+  font-size: 17px;
+}
+
+.profile{
+  flex-direction: column;
+}
+
+.profiletext{
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.profiletext h4{
+  width: 70%;
+}
+
+.profileimg{
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.profiletext li {
+  font-size: 17px;
+}
+
+.client{
+  flex-direction: column;
+}
+
+.clientImage{
+  width: 100%;
+}
+
+.clientText{
+  width: 80%;
+  margin: auto;
+}
+
+.clientText p {
+  width: 90%;
+  font-size: 18px;
+}
+
+.clientText h5 {
+  font-size: 18px;
+} 
+
+footer{
+  margin-top: 2rem;
+}
+
+.newsletter{
+  flex-direction: column;
+}
+
+.signup{
+  width: 100%;
+}
+
+.email{
+  width: 100%;
+}
+
+.footLinks{
+  flex-direction: column;
+}
+
+.footLeft{
+  width: 100%;
+}
+
+.footRight{
+  width: 100%;
+  display: block;
+}
+
+.signUp h3 {
+  font-size: 24px;
+}
+
+.signUp p {
+  font-size: 18px;
+}
+
+.email label {
+  font-size: 18px;
+}
+
+.footLeft p {
+  font-size: 18px;
+}
+
+.quickLinks h5 {
+  font-size: 18px;
+}
+
+.quickLinks p {
+  font-size: 18px;
+}
 }
