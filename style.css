@@ -28,13 +28,18 @@ nav {
   gap: 2rem;
 }
 
-nav li {
+nav li{
   color: white;
   font-family: Lato;
   font-size: 16px;
   font-weight: 500;
   line-height: 21.86px;
   list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }
 
 .btn button {
@@ -292,10 +297,6 @@ nav li {
 
 .doorstepimg img{
   width: 80%;
-}
-
-.doorstepimg {
-  width: 100%;
 }
 
 .profile {
